@@ -4,7 +4,7 @@
 
 This package contains R functions and simulation codes of a statistical inference method for **genetic relatedness between binary traits based on individual-level genome-wide association data**. Specifically, under the *high-dimensional logistic regression models*, we define parameters characterizing the cross-trait genetic correlation, the genetic covariance and the trait-specific genetic variance. A novel weighted debiasing method is developed for the logistic Lasso estimator  and  computationally efficient debiased estimators are proposed. 
 
-`main_function` contains the R function of our proposed inference procedure, including point estimators and confidence intervals for the genetic correlation, genetic variance/covariance between the two traits.
+`main_function.R` contains the R function of our proposed inference procedure, including point estimators and confidence intervals for the genetic correlation, genetic variance/covariance between the two traits.
 
 `Simulation-CI.R`, `Simulation-Test.R` and `Simulation-Est.R` contain simulation codes for evaluating the proposed confidence intervals, statistical tests, and point estimators.
 
